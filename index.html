@@ -1,0 +1,1082 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flat Circle</title>
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- Nav Start -->
+    <nav class="navbar">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="./assets/image/Flat_Circle_PROJECT.svg" alt="Brand Icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="40" viewBox="0 0 32 40" fill="none">
+                <path d="M31.1499 36.46H2.83215V40.0002H31.1499V36.46Z" fill="white"/>
+                <path d="M29.4674 23.0698C28.9268 23.8278 28.3169 24.5339 27.6456 25.179C28.1037 25.7778 28.3492 26.4095 28.3492 27.0202C28.3492 29.7372 23.4662 32.773 16.932 32.773C10.3978 32.773 5.51478 29.7372 5.51478 27.0202C5.51478 26.3885 5.77974 25.7389 6.26325 25.1131C5.59811 24.4636 4.99382 23.7546 4.45793 22.995C3.38313 24.1925 2.77087 25.5637 2.77087 27.0202C2.77087 31.7117 9.11045 35.5154 16.9305 35.5154C24.7506 35.5154 31.0886 31.7117 31.0886 27.0202C31.0901 25.5981 30.5048 24.2509 29.4674 23.0698ZM11.6912 21.9651C15.1511 21.0269 18.7995 21.0351 22.2551 21.989C23.123 21.4052 23.8879 20.6813 24.5185 19.8469C22.327 19.0086 19.7283 18.5251 16.932 18.5251C14.3751 18.5051 11.8351 18.9405 9.43079 19.8109C10.0585 20.6504 10.8225 21.3785 11.6912 21.9651Z" fill="white"/>
+                <path d="M2.93402 10.9664C2.13143 14.447 2.67538 18.1023 4.45662 21.1984C6.23787 24.2944 9.12451 26.602 12.5369 27.6575C15.9492 28.7131 19.6346 28.4386 22.8529 26.8891C26.0712 25.3397 28.5841 22.63 29.887 19.3042C31.19 15.9784 31.1864 12.2828 29.877 8.95957C28.5676 5.63632 26.0494 2.93151 22.8281 1.38829C19.6068 -0.154936 15.9209 -0.422281 12.5106 0.639936C9.10032 1.70215 6.21817 4.01527 4.44294 7.11479L7.17636 6.08339L7.96376 8.17912C9.44073 6.02201 11.6618 4.48581 14.2013 3.86491C16.7408 3.24402 19.4201 3.58211 21.7257 4.8144C24.0314 6.04668 25.8012 8.08647 26.696 10.5429C27.5908 12.9993 27.5477 15.6995 26.5748 18.126C25.602 20.5526 23.7679 22.5348 21.4241 23.6928C19.0802 24.8508 16.3915 25.1031 13.8731 24.4014C11.3548 23.6997 9.18393 22.0933 7.77664 19.8901C6.36934 17.6869 5.82458 15.0419 6.24676 12.4619L9.03408 13.7223L8.88438 13.3092L7.33504 9.218L6.55813 7.16419L3.89206 8.17014L0.413157 9.48446L0 9.64014L2.93402 10.9664Z" fill="#0099FF"/>
+                </svg>
+        </a>
+    
+            <a data-bs-toggle="offcanvas" href="#offcanvasScrolling" role="button"        aria-controls="offcanvasScrolling">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="28" viewBox="0 0 36 28" fill="none">
+                    <rect x="0.371094" width="35.6296" height="4.81481" fill="white"/>
+                    <rect x="0.371094" y="11.5557" width="35.6296" height="4.81481" fill="white"/>
+                    <rect x="10.0002" y="23.1113" width="26" height="4.81481" fill="white"/>
+                </svg>
+            </a>
+        </div>
+    </nav>
+    <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasScrollingLabel"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="47" viewBox="0 0 36 47" fill="none">
+            <path d="M35.9997 42.1357H3.27295V46.2272H35.9997V42.1357Z" fill="black"/>
+            <path d="M34.0563 26.6613C33.4315 27.5373 32.7266 28.3533 31.9509 29.0989C32.4803 29.7909 32.764 30.521 32.764 31.2268C32.764 34.3668 27.1206 37.8753 19.5691 37.8753C12.0176 37.8753 6.37425 34.3668 6.37425 31.2268C6.37425 30.4968 6.68046 29.7459 7.23926 29.0228C6.47056 28.2722 5.77218 27.4527 5.15286 26.5748C3.9107 27.9588 3.20312 29.5435 3.20312 31.2268C3.20312 36.6487 10.5298 41.0447 19.5674 41.0447C28.605 41.0447 35.9299 36.6487 35.9299 31.2268C35.9316 29.5833 35.2552 28.0263 34.0563 26.6613ZM13.5123 25.3845C17.5109 24.3003 21.7274 24.3099 25.7211 25.4122C26.7241 24.7376 27.6081 23.901 28.3369 22.9366C25.8041 21.9678 22.8008 21.409 19.5691 21.409C16.6141 21.3859 13.6786 21.8891 10.9 22.895C11.6254 23.8652 12.5084 24.7067 13.5123 25.3845Z" fill="black"/>
+            <path d="M3.39084 12.6739C2.46329 16.6964 3.09193 20.9208 5.15051 24.4989C7.2091 28.077 10.5452 30.7438 14.4888 31.9638C18.4325 33.1837 22.6917 32.8665 26.4111 31.0757C30.1305 29.285 33.0346 26.1534 34.5404 22.3098C36.0462 18.4662 36.042 14.1952 34.5288 10.3546C33.0156 6.51389 30.1053 3.38794 26.3824 1.60444C22.6596 -0.179059 18.3998 -0.48803 14.4585 0.739574C10.5172 1.96718 7.18633 4.64045 5.1347 8.22255L8.29371 7.03057L9.2037 9.45259C10.9106 6.95962 13.4775 5.18424 16.4124 4.46667C19.3473 3.74911 22.4438 4.13984 25.1084 5.56399C27.773 6.98814 29.8184 9.34552 30.8525 12.1844C31.8867 15.0232 31.8368 18.1439 30.7125 20.9482C29.5882 23.7526 27.4686 26.0434 24.7598 27.3817C22.051 28.72 18.9436 29.0116 16.0332 28.2006C13.1227 27.3897 10.6139 25.5332 8.98745 22.987C7.36104 20.4407 6.73146 17.3839 7.21937 14.4022L10.4407 15.8589L10.2677 15.3814L8.4771 10.6532L7.57922 8.27964L4.49805 9.44221L0.477485 10.9612L0 11.1411L3.39084 12.6739Z" fill="#0099FF"/>
+            </svg></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="offcanvas-flex">
+                <div class="offcanvas-selection">
+                    <a href="#hero-s">About Company</a>
+                    <a href="#why-us-s">Why us</a>
+                    <a href="#our-services-s">Our services</a>
+                    <a href="#our-result-s">Our results</a>
+                    <a href="#global-reach">Global Reach</a>
+                    <a href="#our-team">Our team</a>
+                    <a href="#consulting">References</a>
+                    <a href="#testimonials">Testimonials & Partnerships</a>
+                    <a class="btn" href="#contact-s">CONTACT US</a>
+                  </div>
+                  <div class="offcanvas-icon">
+                     <a href="#"><img src="/assets/image/icon-offcanvas/instagram.svg" alt="Icon"></a>
+                     <a href="#"><img src="/assets/image/icon-offcanvas/tiktok.svg" alt="Icon"></a>
+                     <a href="#"><img src="/assets/image/icon-offcanvas/linkedin.svg" alt="Icon"></a>
+                     <a href="#"><img src="/assets/image/icon-offcanvas/twitter.svg" alt="Icon"></a>
+                  </div>
+            </div>
+         
+        </div>
+    </div>
+    <!-- Nav Start End-->
+
+
+
+    <!-- Hero Section Start -->
+    <section id="hero">
+        <div class="container">
+            <span>#1 PERFORMANCE MARKETING AGENCY IN REGION</span>
+            <h1>THE PARTNER YOU’VE<br class="hero-line-break">BEEN LOOKING FOR</h1>
+            <p>Take the next step in growing your business by using our advanced digital marketing services.</p>
+
+            <div class="hero-button-section">
+                <a href="#our-services-s"><button class="btn">OUR SERVICES</button></a>
+                <a href="#contact-s"><button class="btn">HIRE US</button></a>
+            </div>
+
+            <a class="hero-drag" href="#hero-s"><svg id="hero-drag-arrow" width="50" height="49" viewBox="0 0 50 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path id="hero-drag-arrow" d="M2 21.5L25 44.5L48 21.5" stroke="white" stroke-width="5"/>
+                <path id="hero-drag-arrow" d="M8 2L25 19L42 2" stroke="white" stroke-width="5"/>
+                </svg>
+            </a>
+        </div>
+    </section>
+    <!-- Hero Section End -->
+    
+
+    <!-- ABOUT COMPANY Start -->
+    <section id="hero-s" class="two-section about-company">
+
+        <section class="child">
+
+            <div class="about-company-content content-margin">
+                <span>ABOUT COMPANY</span>
+                <h2>Why Flat Circle</h2>
+                <p>Ever heard of Nietzsche's 'Flat Circle' theory?<br>
+                    It's a reminder that life can be repetitive, just like your marketing strategies.<br>
+                    <br>
+                    If you find yourself stuck in a loop of marketing mishaps, we're here to help you recognize it and guide you into the right path. Growing your business profitably
+                    is our main priority.</p>
+                
+                <a href="#why-us-s"><button class="btn">WHY US</button></a>
+            </div>
+
+
+        </section>
+
+        <section class="child about-company-details">
+            <img class="img-fluid" src="/assets/image/about-company-details.png" alt="About Company Details">
+        </section>
+    </section>
+
+
+    <!-- WHY US Start -->
+    <section id="why-us-s" class="two-section why-us">
+
+        <section class="child">
+            
+
+                <div class="about-company-content why-us-content content-margin">
+                    <span>WHY US</span>
+                    <h2>What Makes<br class="about-company-linebreak"> Us Different</h2>
+                    <p>We will keep you out of the loop of bad choices and marketing missteps.</p>
+                    
+                    <a href="#our-services-s"><button class="btn">OUR SERVICES</button></a>
+                </div>
+
+        </section>
+
+        <section class="child">
+
+            <div class="whyus-grid-container">
+
+                <div class="whyus-grid-one">
+                    <div class="whyus-content">
+                        <img class="img-fluid" src="./assets/image/whyus-content-one.png" alt="Why Us Content">
+                        <h3>Our strength lies in prioritizing your time and peace of mind</h3>
+                        <p>We're not just another agency; we're your partner in achieving your marketing goals, driving business development/growth, while saving your time and providing you with the peace of mind you deserve.</p>
+                    </div>
+                </div>
+
+                <div class="whyus-grid-two">
+                    <div class="whyus-content">
+                        <img class="img-fluid" src="./assets/image/whyus-content-four.png" alt="Why Us Content">
+                        <h3>We got your back in all aspects</h3>
+                        <p>We don't just offer isolated marketing services. Our holistic approach means we consider every facet of your business and tailor our strategies to align with your goals and vision. This comprehensive approach ensures that your marketing efforts are integrated and effective.</p>
+                    </div>
+                </div>
+
+                <div class="whyus-grid-three">
+                    <div class="whyus-content">
+                        <img class="img-fluid" src="./assets/image/whyus-content-three.png" alt="Why Us Content">
+                        <h3>We speak openly and truly</h3>
+                        <p>We believe in 100% transparency. We openly share our strategies, progress, and results with you. You'll always be informed about what we're doing and how it's benefiting your business. Transparency is at the core of our client-agency relationship.</p>
+                    </div>
+                </div>
+
+                <div class="whyus-grid-four">
+                    <div class="whyus-content">
+                        <img class="img-fluid" src="./assets/image/whyus-content-two.png" alt="Why Us Content">
+                        <h3>We develop your business from head to toe</h3>
+                        <p>Our focus extends beyond just marketing. We take a business model development-oriented approach, helping you identify growth opportunities and growing your business profitably, expand your market presence, and achieve long-term success. We're not just here to promote your business; we're here to help it thrive.</p>
+                    </div>
+                </div>
+                
+
+            </div>
+
+        </section>
+    </section>
+
+
+
+    <!-- Our Services Start -->
+    <section id="our-services-s" class="twosection our-services">
+
+        <div class="our-services-grid">
+
+            <div class="services-grid-one">
+
+                <div class="about-company-content our-services-margin">
+                    <span>OUR SERVICES</span>
+                    <h2>What we do</h2>
+                    <div class="our-services-btn">
+                       <button class="btn active">PAID ADVERTISING <svg xmlns="http://www.w3.org/2000/svg" width="21" height="37" viewBox="0 0 21 37" fill="none">
+                        <path d="M2 2L18 18.5L2 35" stroke="white" stroke-width="4"/>
+                        </svg>
+                       </button>
+                       <button class="btn">EMAIL AND SMS MARKETING <svg xmlns="http://www.w3.org/2000/svg" width="21" height="37" viewBox="0 0 21 37" fill="none">
+                        <path d="M2 2L18 18.5L2 35" stroke="white" stroke-width="4"/>
+                        </svg>
+                       </button>
+                       <button class="btn">SEO (Search Engine Optimization) <svg xmlns="http://www.w3.org/2000/svg" width="21" height="37" viewBox="0 0 21 37" fill="none">
+                        <path d="M2 2L18 18.5L2 35" stroke="white" stroke-width="4"/>
+                        </svg>
+                       </button>
+                       <button class="btn">CONTENT CREATION AND INFLUENCER MARKETING <svg xmlns="http://www.w3.org/2000/svg" width="21" height="37" viewBox="0 0 21 37" fill="none">
+                        <path d="M2 2L18 18.5L2 35" stroke="white" stroke-width="4"/>
+                        </svg>
+                       </button>
+                       <button class="btn">GRAPHIC DESIGN <svg xmlns="http://www.w3.org/2000/svg" width="21" height="37" viewBox="0 0 21 37" fill="none">
+                        <path d="M2 2L18 18.5L2 35" stroke="white" stroke-width="4"/>
+                        </svg>
+                       </button>
+            
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="services-grid-two">
+                <div class="services-description">
+                    <h3>PAID ADVERTISING</h3>
+                    <p>Unlock the full potential of paid advertising with our expert team. We design and manage highly targeted campaigns that drive <b>quality leads</b>, increase <b>brand visibility</b>, and <b>boost your ROI</b>. Let us optimize your ad spend for maximum impact. Our media buyers are some of the bests in the industry with a track record for growing successful businesses.</p>
+
+                    <div class="services-description-grid">
+                        <div class="description-grid-one">
+
+                            <div class="services-description-benefits mt-5">
+                                <span><svg style="margin-right: 24px;" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+                                    <g clip-path="url(#clip0_186_2455)">
+                                    <path d="M33.2847 18.1286C33.2847 18.2546 33.2803 18.3814 33.2662 18.5056C33.1632 19.3988 33.1174 20.3053 32.9333 21.1826C32.2357 24.5133 30.5756 27.3004 28.0012 29.5202C24.4412 32.5901 20.293 33.7661 15.6639 33.0904C12.1004 32.5707 9.07773 30.9252 6.68565 28.2218C3.08873 24.1539 1.95611 19.4358 3.22084 14.1734C3.97387 11.0392 5.67457 8.44769 8.12125 6.36087C10.4836 4.3144 13.4313 3.06563 16.5446 2.79241C17.0131 2.74748 17.487 2.75012 17.9538 2.70432V0C17.1396 0.00849865 16.3266 0.062611 15.5185 0.162083C11.978 0.660664 8.83464 2.08505 6.15105 4.45728C2.88176 7.34746 0.890422 10.9556 0.208734 15.2745C0.128587 15.7811 0.0686972 16.2911 0 16.7994V19.191C0.0686972 19.6983 0.128587 20.2075 0.208734 20.714C0.888661 25.0303 2.87736 28.6332 6.1396 31.5225C8.82848 33.9009 11.9762 35.3191 15.5273 35.8388C15.9527 35.9005 16.3799 35.9472 16.807 36.0009H19.2C19.2881 35.9789 19.3761 35.9507 19.4686 35.9357C20.448 35.7754 21.4459 35.6899 22.4041 35.4459C26.8298 34.3166 30.3378 31.8343 32.9121 28.072C34.9537 25.0885 35.9709 21.7675 36.0026 18.1542C35.0946 18.1647 34.1901 18.1744 33.2847 18.1286Z" fill="white"/>
+                                    <path d="M33.2517 4.75684C33.1177 4.85003 32.9926 4.95561 32.8783 5.07219C27.6227 10.3205 22.3676 15.5685 17.1132 20.8162C17.012 20.935 16.9202 21.0613 16.8384 21.1941L13.4669 17.5341C12.6337 16.6297 11.8006 15.7247 10.9674 14.8192C10.9348 14.7839 10.9005 14.7505 10.8661 14.7188C10.1844 15.3918 9.60754 15.9106 8.89062 16.5801C8.93466 16.6364 8.9787 16.6911 9.03066 16.7448C11.2395 19.1385 13.4478 21.5324 15.6555 23.9267C15.8366 24.1243 16.06 24.2785 16.309 24.3777C16.937 24.6137 17.4329 24.3468 17.8803 23.9002C23.5252 18.2626 29.1719 12.6249 34.8203 6.98724C34.9031 6.90443 34.9868 6.82163 35.0616 6.73178C35.091 6.69639 35.1184 6.65933 35.1435 6.62079C34.5209 5.99007 33.9096 5.35848 33.2517 4.75684Z" fill="white"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_186_2455">
+                                    <rect width="36" height="36" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                    </svg>GOOGLE ADS</span>
+                            </div>
+
+                        </div>
+
+                        <div class="description-grid-two">
+
+                            <div class="services-description-benefits mt-5">
+                                <span><svg style="margin-right: 24px;" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+                                    <g clip-path="url(#clip0_186_2455)">
+                                    <path d="M33.2847 18.1286C33.2847 18.2546 33.2803 18.3814 33.2662 18.5056C33.1632 19.3988 33.1174 20.3053 32.9333 21.1826C32.2357 24.5133 30.5756 27.3004 28.0012 29.5202C24.4412 32.5901 20.293 33.7661 15.6639 33.0904C12.1004 32.5707 9.07773 30.9252 6.68565 28.2218C3.08873 24.1539 1.95611 19.4358 3.22084 14.1734C3.97387 11.0392 5.67457 8.44769 8.12125 6.36087C10.4836 4.3144 13.4313 3.06563 16.5446 2.79241C17.0131 2.74748 17.487 2.75012 17.9538 2.70432V0C17.1396 0.00849865 16.3266 0.062611 15.5185 0.162083C11.978 0.660664 8.83464 2.08505 6.15105 4.45728C2.88176 7.34746 0.890422 10.9556 0.208734 15.2745C0.128587 15.7811 0.0686972 16.2911 0 16.7994V19.191C0.0686972 19.6983 0.128587 20.2075 0.208734 20.714C0.888661 25.0303 2.87736 28.6332 6.1396 31.5225C8.82848 33.9009 11.9762 35.3191 15.5273 35.8388C15.9527 35.9005 16.3799 35.9472 16.807 36.0009H19.2C19.2881 35.9789 19.3761 35.9507 19.4686 35.9357C20.448 35.7754 21.4459 35.6899 22.4041 35.4459C26.8298 34.3166 30.3378 31.8343 32.9121 28.072C34.9537 25.0885 35.9709 21.7675 36.0026 18.1542C35.0946 18.1647 34.1901 18.1744 33.2847 18.1286Z" fill="white"/>
+                                    <path d="M33.2517 4.75684C33.1177 4.85003 32.9926 4.95561 32.8783 5.07219C27.6227 10.3205 22.3676 15.5685 17.1132 20.8162C17.012 20.935 16.9202 21.0613 16.8384 21.1941L13.4669 17.5341C12.6337 16.6297 11.8006 15.7247 10.9674 14.8192C10.9348 14.7839 10.9005 14.7505 10.8661 14.7188C10.1844 15.3918 9.60754 15.9106 8.89062 16.5801C8.93466 16.6364 8.9787 16.6911 9.03066 16.7448C11.2395 19.1385 13.4478 21.5324 15.6555 23.9267C15.8366 24.1243 16.06 24.2785 16.309 24.3777C16.937 24.6137 17.4329 24.3468 17.8803 23.9002C23.5252 18.2626 29.1719 12.6249 34.8203 6.98724C34.9031 6.90443 34.9868 6.82163 35.0616 6.73178C35.091 6.69639 35.1184 6.65933 35.1435 6.62079C34.5209 5.99007 33.9096 5.35848 33.2517 4.75684Z" fill="white"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_186_2455">
+                                    <rect width="36" height="36" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                    </svg>GOOGLE ADS</span>
+                            </div>
+
+                        </div>
+
+                        <div class="description-grid-three">
+
+                            <div class="services-description-benefits mt-5">
+                                <span><svg style="margin-right: 24px;" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+                                    <g clip-path="url(#clip0_186_2455)">
+                                    <path d="M33.2847 18.1286C33.2847 18.2546 33.2803 18.3814 33.2662 18.5056C33.1632 19.3988 33.1174 20.3053 32.9333 21.1826C32.2357 24.5133 30.5756 27.3004 28.0012 29.5202C24.4412 32.5901 20.293 33.7661 15.6639 33.0904C12.1004 32.5707 9.07773 30.9252 6.68565 28.2218C3.08873 24.1539 1.95611 19.4358 3.22084 14.1734C3.97387 11.0392 5.67457 8.44769 8.12125 6.36087C10.4836 4.3144 13.4313 3.06563 16.5446 2.79241C17.0131 2.74748 17.487 2.75012 17.9538 2.70432V0C17.1396 0.00849865 16.3266 0.062611 15.5185 0.162083C11.978 0.660664 8.83464 2.08505 6.15105 4.45728C2.88176 7.34746 0.890422 10.9556 0.208734 15.2745C0.128587 15.7811 0.0686972 16.2911 0 16.7994V19.191C0.0686972 19.6983 0.128587 20.2075 0.208734 20.714C0.888661 25.0303 2.87736 28.6332 6.1396 31.5225C8.82848 33.9009 11.9762 35.3191 15.5273 35.8388C15.9527 35.9005 16.3799 35.9472 16.807 36.0009H19.2C19.2881 35.9789 19.3761 35.9507 19.4686 35.9357C20.448 35.7754 21.4459 35.6899 22.4041 35.4459C26.8298 34.3166 30.3378 31.8343 32.9121 28.072C34.9537 25.0885 35.9709 21.7675 36.0026 18.1542C35.0946 18.1647 34.1901 18.1744 33.2847 18.1286Z" fill="white"/>
+                                    <path d="M33.2517 4.75684C33.1177 4.85003 32.9926 4.95561 32.8783 5.07219C27.6227 10.3205 22.3676 15.5685 17.1132 20.8162C17.012 20.935 16.9202 21.0613 16.8384 21.1941L13.4669 17.5341C12.6337 16.6297 11.8006 15.7247 10.9674 14.8192C10.9348 14.7839 10.9005 14.7505 10.8661 14.7188C10.1844 15.3918 9.60754 15.9106 8.89062 16.5801C8.93466 16.6364 8.9787 16.6911 9.03066 16.7448C11.2395 19.1385 13.4478 21.5324 15.6555 23.9267C15.8366 24.1243 16.06 24.2785 16.309 24.3777C16.937 24.6137 17.4329 24.3468 17.8803 23.9002C23.5252 18.2626 29.1719 12.6249 34.8203 6.98724C34.9031 6.90443 34.9868 6.82163 35.0616 6.73178C35.091 6.69639 35.1184 6.65933 35.1435 6.62079C34.5209 5.99007 33.9096 5.35848 33.2517 4.75684Z" fill="white"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_186_2455">
+                                    <rect width="36" height="36" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                    </svg>TIK TOK ADS</span>
+                            </div>
+
+                        </div>
+
+                        <div class="description-grid-four">
+
+                            <div class="services-description-benefits mt-5">
+                                <span><svg style="margin-right: 24px;" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+                                    <g clip-path="url(#clip0_186_2455)">
+                                    <path d="M33.2847 18.1286C33.2847 18.2546 33.2803 18.3814 33.2662 18.5056C33.1632 19.3988 33.1174 20.3053 32.9333 21.1826C32.2357 24.5133 30.5756 27.3004 28.0012 29.5202C24.4412 32.5901 20.293 33.7661 15.6639 33.0904C12.1004 32.5707 9.07773 30.9252 6.68565 28.2218C3.08873 24.1539 1.95611 19.4358 3.22084 14.1734C3.97387 11.0392 5.67457 8.44769 8.12125 6.36087C10.4836 4.3144 13.4313 3.06563 16.5446 2.79241C17.0131 2.74748 17.487 2.75012 17.9538 2.70432V0C17.1396 0.00849865 16.3266 0.062611 15.5185 0.162083C11.978 0.660664 8.83464 2.08505 6.15105 4.45728C2.88176 7.34746 0.890422 10.9556 0.208734 15.2745C0.128587 15.7811 0.0686972 16.2911 0 16.7994V19.191C0.0686972 19.6983 0.128587 20.2075 0.208734 20.714C0.888661 25.0303 2.87736 28.6332 6.1396 31.5225C8.82848 33.9009 11.9762 35.3191 15.5273 35.8388C15.9527 35.9005 16.3799 35.9472 16.807 36.0009H19.2C19.2881 35.9789 19.3761 35.9507 19.4686 35.9357C20.448 35.7754 21.4459 35.6899 22.4041 35.4459C26.8298 34.3166 30.3378 31.8343 32.9121 28.072C34.9537 25.0885 35.9709 21.7675 36.0026 18.1542C35.0946 18.1647 34.1901 18.1744 33.2847 18.1286Z" fill="white"/>
+                                    <path d="M33.2517 4.75684C33.1177 4.85003 32.9926 4.95561 32.8783 5.07219C27.6227 10.3205 22.3676 15.5685 17.1132 20.8162C17.012 20.935 16.9202 21.0613 16.8384 21.1941L13.4669 17.5341C12.6337 16.6297 11.8006 15.7247 10.9674 14.8192C10.9348 14.7839 10.9005 14.7505 10.8661 14.7188C10.1844 15.3918 9.60754 15.9106 8.89062 16.5801C8.93466 16.6364 8.9787 16.6911 9.03066 16.7448C11.2395 19.1385 13.4478 21.5324 15.6555 23.9267C15.8366 24.1243 16.06 24.2785 16.309 24.3777C16.937 24.6137 17.4329 24.3468 17.8803 23.9002C23.5252 18.2626 29.1719 12.6249 34.8203 6.98724C34.9031 6.90443 34.9868 6.82163 35.0616 6.73178C35.091 6.69639 35.1184 6.65933 35.1435 6.62079C34.5209 5.99007 33.9096 5.35848 33.2517 4.75684Z" fill="white"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_186_2455">
+                                    <rect width="36" height="36" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                    </svg>SNAPCHAT ADS</span>
+                            </div>
+
+                        </div>
+
+                        <div class="description-grid-five">
+
+                            <div class="services-description-benefits mt-5">
+                                <span><svg style="margin-right: 24px;" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+                                    <g clip-path="url(#clip0_186_2455)">
+                                    <path d="M33.2847 18.1286C33.2847 18.2546 33.2803 18.3814 33.2662 18.5056C33.1632 19.3988 33.1174 20.3053 32.9333 21.1826C32.2357 24.5133 30.5756 27.3004 28.0012 29.5202C24.4412 32.5901 20.293 33.7661 15.6639 33.0904C12.1004 32.5707 9.07773 30.9252 6.68565 28.2218C3.08873 24.1539 1.95611 19.4358 3.22084 14.1734C3.97387 11.0392 5.67457 8.44769 8.12125 6.36087C10.4836 4.3144 13.4313 3.06563 16.5446 2.79241C17.0131 2.74748 17.487 2.75012 17.9538 2.70432V0C17.1396 0.00849865 16.3266 0.062611 15.5185 0.162083C11.978 0.660664 8.83464 2.08505 6.15105 4.45728C2.88176 7.34746 0.890422 10.9556 0.208734 15.2745C0.128587 15.7811 0.0686972 16.2911 0 16.7994V19.191C0.0686972 19.6983 0.128587 20.2075 0.208734 20.714C0.888661 25.0303 2.87736 28.6332 6.1396 31.5225C8.82848 33.9009 11.9762 35.3191 15.5273 35.8388C15.9527 35.9005 16.3799 35.9472 16.807 36.0009H19.2C19.2881 35.9789 19.3761 35.9507 19.4686 35.9357C20.448 35.7754 21.4459 35.6899 22.4041 35.4459C26.8298 34.3166 30.3378 31.8343 32.9121 28.072C34.9537 25.0885 35.9709 21.7675 36.0026 18.1542C35.0946 18.1647 34.1901 18.1744 33.2847 18.1286Z" fill="white"/>
+                                    <path d="M33.2517 4.75684C33.1177 4.85003 32.9926 4.95561 32.8783 5.07219C27.6227 10.3205 22.3676 15.5685 17.1132 20.8162C17.012 20.935 16.9202 21.0613 16.8384 21.1941L13.4669 17.5341C12.6337 16.6297 11.8006 15.7247 10.9674 14.8192C10.9348 14.7839 10.9005 14.7505 10.8661 14.7188C10.1844 15.3918 9.60754 15.9106 8.89062 16.5801C8.93466 16.6364 8.9787 16.6911 9.03066 16.7448C11.2395 19.1385 13.4478 21.5324 15.6555 23.9267C15.8366 24.1243 16.06 24.2785 16.309 24.3777C16.937 24.6137 17.4329 24.3468 17.8803 23.9002C23.5252 18.2626 29.1719 12.6249 34.8203 6.98724C34.9031 6.90443 34.9868 6.82163 35.0616 6.73178C35.091 6.69639 35.1184 6.65933 35.1435 6.62079C34.5209 5.99007 33.9096 5.35848 33.2517 4.75684Z" fill="white"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_186_2455">
+                                    <rect width="36" height="36" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                    </svg>LINKED-IN ADS</span>
+                            </div>
+
+                        </div>
+
+                        <div class="description-grid-six">
+
+                            <div class="services-description-benefits mt-5">
+                                <span><svg style="margin-right: 24px;" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+                                    <g clip-path="url(#clip0_186_2455)">
+                                    <path d="M33.2847 18.1286C33.2847 18.2546 33.2803 18.3814 33.2662 18.5056C33.1632 19.3988 33.1174 20.3053 32.9333 21.1826C32.2357 24.5133 30.5756 27.3004 28.0012 29.5202C24.4412 32.5901 20.293 33.7661 15.6639 33.0904C12.1004 32.5707 9.07773 30.9252 6.68565 28.2218C3.08873 24.1539 1.95611 19.4358 3.22084 14.1734C3.97387 11.0392 5.67457 8.44769 8.12125 6.36087C10.4836 4.3144 13.4313 3.06563 16.5446 2.79241C17.0131 2.74748 17.487 2.75012 17.9538 2.70432V0C17.1396 0.00849865 16.3266 0.062611 15.5185 0.162083C11.978 0.660664 8.83464 2.08505 6.15105 4.45728C2.88176 7.34746 0.890422 10.9556 0.208734 15.2745C0.128587 15.7811 0.0686972 16.2911 0 16.7994V19.191C0.0686972 19.6983 0.128587 20.2075 0.208734 20.714C0.888661 25.0303 2.87736 28.6332 6.1396 31.5225C8.82848 33.9009 11.9762 35.3191 15.5273 35.8388C15.9527 35.9005 16.3799 35.9472 16.807 36.0009H19.2C19.2881 35.9789 19.3761 35.9507 19.4686 35.9357C20.448 35.7754 21.4459 35.6899 22.4041 35.4459C26.8298 34.3166 30.3378 31.8343 32.9121 28.072C34.9537 25.0885 35.9709 21.7675 36.0026 18.1542C35.0946 18.1647 34.1901 18.1744 33.2847 18.1286Z" fill="white"/>
+                                    <path d="M33.2517 4.75684C33.1177 4.85003 32.9926 4.95561 32.8783 5.07219C27.6227 10.3205 22.3676 15.5685 17.1132 20.8162C17.012 20.935 16.9202 21.0613 16.8384 21.1941L13.4669 17.5341C12.6337 16.6297 11.8006 15.7247 10.9674 14.8192C10.9348 14.7839 10.9005 14.7505 10.8661 14.7188C10.1844 15.3918 9.60754 15.9106 8.89062 16.5801C8.93466 16.6364 8.9787 16.6911 9.03066 16.7448C11.2395 19.1385 13.4478 21.5324 15.6555 23.9267C15.8366 24.1243 16.06 24.2785 16.309 24.3777C16.937 24.6137 17.4329 24.3468 17.8803 23.9002C23.5252 18.2626 29.1719 12.6249 34.8203 6.98724C34.9031 6.90443 34.9868 6.82163 35.0616 6.73178C35.091 6.69639 35.1184 6.65933 35.1435 6.62079C34.5209 5.99007 33.9096 5.35848 33.2517 4.75684Z" fill="white"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_186_2455">
+                                    <rect width="36" height="36" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                    </svg>PINTEREST ADS</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    
+                </div>
+
+
+            </div>
+
+            <div class="services-grid-three">
+                <img class="img-fluid" src="./assets/image/our-services-picture.png" alt="Services picture">
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!-- Number Speak Start -->
+    <section id="our-result-s" class="two-section number-speak">
+
+        <section class="child">
+            
+
+                <div class="about-company-content why-us-content content-margin">
+                    <span>OUR RESULTS</span>
+                    <h2>the numbers speak<br>for themselves</h2>
+                    <p>Step into a world where numbers speak louder than words.</p>
+                    
+                    <a href="#contact-s"><button class="btn">HIRE US</button></a>
+                </div>
+
+        </section>
+
+        <section class="child number-speak-bg position-relative text-center" >
+            <img class="img-fluid" src="./assets/image/number-speak-content.png" alt="Number speak Picture">
+
+            <div class="number-content-main">
+
+                    <div class="number-advertising number-grid-one">
+                        <div class="numbers-colors">
+                            <span>50.2M €</span>
+                            <span>Managed in advertising spend</span>
+                        </div>
+                    </div>
+                    <div class="number-advertising number-grid-two">
+                        <div class="numbers-colors">
+                            <span>4.2</span>
+                            <span>Average ROAS</span>
+                        </div>
+                    </div>
+
+                    <div class="number-advertising number-grid-three">
+                        <div class="numbers-colors">
+                            <span>3M+</span>
+                            <span>Digital Engagements</span>
+                        </div>
+                    </div>
+
+
+                    <div class="number-advertising number-grid-four">
+                        <div class="numbers-colors">
+                            <span>2 %</span>
+                            <span>Average Annual Growth</span>
+                        </div>
+                    </div>
+
+
+            </div>
+
+            
+
+        </section>
+    </section>
+    <!-- Number Speak End -->
+
+
+
+    <!-- Global Advertise Start -->
+    <section id="global-reach" class="two-section about-company global-advertise">
+        <section class="child">
+            <div class="about-company-content content-margin">
+                <span>Global Reach</span>
+                <h2>Global Advertising<br>Excellence</h2>
+                <p>At our digital marketing agency, we take pride in our global reach and the incredible diversity that it brings to our work. We have a fantastic team of experts spread across the world, allowing us to understand and cater to markets on a global scale. No matter where you are or where your target audience resides, we're equipped to provide solutions that resonate.<br>
+                    <br>              
+Together, we're not just familiar with markets worldwide; we're connected to them. This global network of knowledge and talent is what sets us apart, ensuring your digital marketing strategies are as dynamic and diverse as the world itself.</p>
+                <a href="#contact-s"><button class="btn">CONTACT US</button></a>
+            </div>
+        </section>
+
+        <section class="child">
+            <img class="img-fluid" src="./assets/image/global-advertise.png" alt="">
+        </section>
+    </section>
+
+
+
+    <!-- Our Team Start -->
+    <section id="our-team">
+        <div class="container-our-team">
+            <div class="row gx-5">
+                <div class="col-lg-6 position-relative">
+
+                    <div class="about-company-content">
+                        <span>ABOUT COMPANY</span>
+                        <h2>Why Flat Circle</h2>
+                        <p>Ever heard of Nietzsche's 'Flat Circle' theory?<br>
+                            It's a reminder that life can be repetitive, just like your marketing strategies.<br>
+                            <br>
+                            If you find yourself stuck in a loop of marketing mishaps, we're here to help you recognize it and guide you into the right path. Growing your business profitably
+                            is our main priority.</p>
+                        
+                        <a href="#why-us-s"><button class="btn">WHY US</button></a>
+                    </div>
+
+                    <div class="our-team-contents our-team-displayon">
+                        <div class="team-contents-absolute-one">
+                         <div class="our-team-contents-one position-relative">
+                             <img src="/assets/image/who-are-we-whitebg-one.svg" alt="">
+                             <div class="teamone-contents-main">
+                                 <h4>Sabrina Oprešnik</h4>
+                                 <span>Graphic designer</span>
+                                 <div class="teamone-contents-svg">
+                                     <img src="/assets/image/teamone-svgfirst.svg" alt="">
+                                     <img src="/assets/image/team-one-svgtwo.svg" alt="">
+                                     <img src="/assets/image/team-one-svg-three.svg" alt="">
+                                 </div>
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="31" height="27" viewBox="0 0 31 27" fill="none">
+                                     <path d="M15.5 0L30.6554 26.25H0.344556L15.5 0Z" fill="white"/>
+                                 </svg>
+                             </div>
+                         </div>
+                        </div>
+                     </div>
+
+
+                  
+                </div>
+
+                <div class="col-lg-6 position-relative our-team-displayoff">
+
+                    <div class="our-team-contents ">
+                       <div class="team-contents-absolute-one">
+                        <div class="our-team-contents-one position-relative">
+                            <img src="/assets/image/who-are-we-whitebg-one.svg" alt="">
+                            <div class="teamone-contents-main">
+                                <h4>Sabrina Oprešnik</h4>
+                                <span>Graphic designer</span>
+                                <div class="teamone-contents-svg">
+                                    <img src="/assets/image/teamone-svgfirst.svg" alt="">
+                                    <img src="/assets/image/team-one-svgtwo.svg" alt="">
+                                    <img src="/assets/image/team-one-svg-three.svg" alt="">
+                                </div>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="31" height="27" viewBox="0 0 31 27" fill="none">
+                                    <path d="M15.5 0L30.6554 26.25H0.344556L15.5 0Z" fill="white"/>
+                                </svg>
+                            </div>
+                        </div>
+                       </div>
+
+
+                       <div class="team-contents-absolute-two">
+                        <div class="our-team-contents-one position-relative">
+                            <img src="/assets/image/who-are-we-whitebg-two.svg" alt="">
+                            <div class="teamone-contents-main">
+                                <h4>Sabrina Oprešnik</h4>
+                                <span>Graphic designer</span>
+                                <div class="teamone-contents-svg">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi feugiat et dui id tincidunt. Nullam quis tempus magna.</p>
+                                </div>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="31" height="27" viewBox="0 0 31 27" fill="none">
+                                    <path d="M15.5 0L30.6554 26.25H0.344556L15.5 0Z" fill="white"/>
+                                </svg>
+                            </div>
+                        </div>
+                       </div>
+                        
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- Our Team End -->
+
+
+    <!-- Team Ceo start -->
+    <section id="" class="two-section why-us team-ceo">
+
+        <section class="child">
+            
+                <div class="about-company-content why-us-content content-margin">
+                    <span>WHY US</span>
+                    <p>Now, let's delve a bit deeper into the personalities that make our</p>
+                    <h2>Trio of CEOs<br class="about-company-linebreak">truly stand out</h2>
+                </div>
+
+        </section>
+
+        <section class="child">
+
+            <div class="team-ceo-grid">
+
+                <div class="ceo-grid-one">
+                    <div class="ceo-profile profile-display-off">
+                        <img class="img-fluid" src="/assets/image/ceo-picture-one.png" alt="Ceo picture">
+                        <h4>Rok Hladnik</h4>
+                        <span>The mastermind behind our success</span>
+                        <span>From suited executive to hoodie digital guru, this shift symbolizes Rok's remarkable adaptability and his commitment to staying ahead of the curve in the ever-changing business world. His way proves time and again that he's not just the CEO, but a friendly guide always ready to assist and inspire.</span>
+                    </div>
+
+
+                    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-interval="5000">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <div class="ceo-profile">
+                                <img class="img-fluid" src="/assets/image/ceo-picture-one.png" alt="Ceo picture">
+                                <h4>Rok Hladnik</h4>
+                                <span>The mastermind behind our success</span>
+                                <span>From suited executive to hoodie digital guru, this shift symbolizes Rok's remarkable adaptability and his commitment to staying ahead of the curve in the ever-changing business world. His way proves time and again that he's not just the CEO, but a friendly guide always ready to assist and inspire.</span>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <div class="ceo-profile">
+                                <img class="img-fluid" src="/assets/image/ceo-picture-two.png" alt="Ceo picture">
+                                <h4>Rok Sabadin</h4>
+                                <span>Our data-driven genius</span>
+                                <span>He has a knack for translating complex analytics into actionable strategies.Rok is the one who turns numbers into insights, making sure you not only see results but understand the why and how behind them.</span>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <div class="ceo-profile">
+                                <img class="img-fluid" src="/assets/image/ceo-picture-three.png" alt="Ceo picture">
+                                <h4>Matej Hladnik</h4>
+                                <span>Our fearless explorer</span>
+                                <span>He's the one you'll find testing out the latest tech gadgets or boldly venturing into uncharted digital territories. Matej thrives on adapting to change, and he brings that adventurous spirit into everything he does, ensuring we're always ahead of the curve.</span>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ceo-grid-two">
+                    <div class="ceo-profile">
+                        <img class="img-fluid" src="/assets/image/ceo-picture-two.png" alt="Ceo picture">
+                        <h4>Rok Sabadin</h4>
+                        <span>Our data-driven genius</span>
+                        <span>He has a knack for translating complex analytics into actionable strategies.Rok is the one who turns numbers into insights, making sure you not only see results but understand the why and how behind them.</span>
+                    </div>
+                </div>
+
+                <div class="ceo-grid-three">
+                    <div class="ceo-profile">
+                        <img class="img-fluid" src="/assets/image/ceo-picture-three.png" alt="Ceo picture">
+                        <h4>Matej Hladnik</h4>
+                        <span>Our fearless explorer</span>
+                        <span>He's the one you'll find testing out the latest tech gadgets or boldly venturing into uncharted digital territories. Matej thrives on adapting to change, and he brings that adventurous spirit into everything he does, ensuring we're always ahead of the curve.</span>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </section>
+    </section>
+    <!-- Team Ceo End -->
+
+
+    <!-- Consulting Start -->
+    <section id="consulting">
+        <div class="row gx-0">
+            <div class="col-6 col-lg-4">
+                <div class="consulting-main">
+                    <img class="img-fluid" src="./assets/image/cons-picture-one.png" alt="">
+                    <img src="./assets/image/cons-logo-one.svg" alt="">
+                    <div class="consult-content">
+                        <p>Consulting and Digital marketing</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-lg-4">
+                <div class="consulting-main">
+                    <img class="img-fluid" src="./assets/image/cons-picture-two.png" alt="">
+                    <img src="./assets/image/cons-logo-five.png" alt="">
+                    <div class="consult-content">
+                        <p>Consulting and Digital marketing</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-lg-4">
+                <div class="consulting-main">
+                    <img class="img-fluid" src="./assets/image/cons-picture-three.png" alt="">
+                    <img src="./assets/image/cons-logo-three.svg" alt="">
+                    <div class="consult-content">
+                        <p>Consulting and Digital marketing</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-lg-4">
+                <div class="consulting-main">
+                    <img class="img-fluid" src="./assets/image/cons-picture-four.png" alt="">
+                    <img src="./assets/image/cons-logo-four.png" alt="">
+                    <div class="consult-content">
+                        <p>Consulting and Digital marketing</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-lg-4">
+                <div class="consulting-main">
+                    <img class="img-fluid" src="./assets/image/cons-picture-five.png" alt="">
+                    <img src="./assets/image/cons-logo-two.svg" alt="">
+                    <div class="consult-content">
+                        <p>Consulting and Digital marketing</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-lg-4">
+                <div class="consulting-main">
+                    <img class="img-fluid" src="./assets/image/cons-picture-six.png" alt="">
+                    <img src="./assets/image/cons-logo-six.png" alt="">
+                    <div class="consult-content">
+                        <p>Consulting and Digital marketing</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+    </section>
+    <!-- Consulting End -->
+
+
+    <!-- Testimonials Start -->
+    <section id="testimonials">
+        <div class="testimonials-container">
+            <div class="about-company-content">
+                <span>ABOUT COMPANY</span>
+                <h2>Our Trusted Partners and Satisfied Clients</h2>
+            </div>
+ 
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-interval="5000">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="row gy-2">
+                        <div class="col-lg-4">
+                            <div class="testimonials-content">
+                                <div>
+                                    <p>"High analytical skills and long-time experience in the media buying world make cooperation seamless. The Flat Circle team efficiently manages every dollar spent and tries to provide clients with a bigger picture and understanding of the advertising industry to realize the true impact of performance marketing on a scale."</p>
+                                </div>
+                                <div class="testimonials-profile">
+                                    <div>
+                                        <img class="img-fluid" src="./assets/image/t-pic-one.png" alt="">
+                                    </div>
+                                    <div class="testimonials-profile-content">
+                                        <span>Benjamin Kumalić</span>
+                                        <span>Head of Performance Marketing @Bird Buddy</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="testimonials-content">
+                                <div>
+                                    <p>"I have a very high bar for what I consider to be a true performance marketer, and Flat Circle checks all of the boxes. Their team acts as a trusted advisor and trendspotter for all of their clients. Their level of communication is top-notch and so is their ability to identify bottlenecks and spot opportunities in marketing. They combine excellent pattern recognition, creativity, and science to deliver amazing results. Simply, they know what works and they are a ton of fun to work with."</p>
+                                </div>
+                                <div class="testimonials-profile">
+                                    <div>
+                                        <img class="img-fluid" src="./assets/image/t-pic-two.png" alt="">
+                                    </div>
+                                    <div class="testimonials-profile-content">
+                                        <span>Eric Carlson</span>
+                                        <span>Head of Performance Marketing @Bird Buddy</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="testimonials-content">
+                                <div>
+                                    <p>"Rok and his team’s passion for media ad buying and helping DTC businesses reach their goals by means of Facebook advertising and beyond is exceptional. Keen eyes for details trends, tech, and seasonality make their work as professional as possible. If something is happening with your paid ads they are the ones that will spot it and save your day (and your money). Only a person who truly cares about exceptional performance, will check ads several times a day for dozens of clients, and act proactively - the team at Flat Circle does that. Also, whenever you need practical advice, they will share a handful of good & bad practices with you anytime, with great pleasure."</p>
+                                </div>
+                                <div class="testimonials-profile">
+                                    <div>
+                                        <img class="img-fluid" src="./assets/image/t-pic-three.png" alt="">
+                                    </div>
+                                    <div class="testimonials-profile-content">
+                                        <span>Špela Mlekuž</span>
+                                        <span>Head of Performance Marketing @Bird Buddy</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                       
+                        
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row gy-2">
+                        <div class="col-lg-4">
+                            <div class="testimonials-content">
+                                <div>
+                                    <p>"High analytical skills and long-time experience in the media buying world make cooperation seamless. The Flat Circle team efficiently manages every dollar spent and tries to provide clients with a bigger picture and understanding of the advertising industry to realize the true impact of performance marketing on a scale."</p>
+                                </div>
+                                <div class="testimonials-profile">
+                                    <div>
+                                        <img class="img-fluid" src="./assets/image/t-pic-one.png" alt="">
+                                    </div>
+                                    <div class="testimonials-profile-content">
+                                        <span>Benjamin Kumalić</span>
+                                        <span>Head of Performance Marketing @Bird Buddy</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="testimonials-content">
+                                <div>
+                                    <p>"I have a very high bar for what I consider to be a true performance marketer, and Flat Circle checks all of the boxes. Their team acts as a trusted advisor and trendspotter for all of their clients. Their level of communication is top-notch and so is their ability to identify bottlenecks and spot opportunities in marketing. They combine excellent pattern recognition, creativity, and science to deliver amazing results. Simply, they know what works and they are a ton of fun to work with."</p>
+                                </div>
+                                <div class="testimonials-profile">
+                                    <div>
+                                        <img class="img-fluid" src="./assets/image/t-pic-two.png" alt="">
+                                    </div>
+                                    <div class="testimonials-profile-content">
+                                        <span>Eric Carlson</span>
+                                        <span>Head of Performance Marketing @Bird Buddy</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="testimonials-content">
+                                <div>
+                                    <p>"Rok and his team’s passion for media ad buying and helping DTC businesses reach their goals by means of Facebook advertising and beyond is exceptional. Keen eyes for details trends, tech, and seasonality make their work as professional as possible. If something is happening with your paid ads they are the ones that will spot it and save your day (and your money). Only a person who truly cares about exceptional performance, will check ads several times a day for dozens of clients, and act proactively - the team at Flat Circle does that. Also, whenever you need practical advice, they will share a handful of good & bad practices with you anytime, with great pleasure."</p>
+                                </div>
+                                <div class="testimonials-profile">
+                                    <div>
+                                        <img class="img-fluid" src="./assets/image/t-pic-three.png" alt="">
+                                    </div>
+                                    <div class="testimonials-profile-content">
+                                        <span>Špela Mlekuž</span>
+                                        <span>Head of Performance Marketing @Bird Buddy</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                       
+                        
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row gy-2">
+                        <div class="col-lg-4">
+                            <div class="testimonials-content">
+                                <div>
+                                    <p>"High analytical skills and long-time experience in the media buying world make cooperation seamless. The Flat Circle team efficiently manages every dollar spent and tries to provide clients with a bigger picture and understanding of the advertising industry to realize the true impact of performance marketing on a scale."</p>
+                                </div>
+                                <div class="testimonials-profile">
+                                    <div>
+                                        <img class="img-fluid" src="./assets/image/t-pic-one.png" alt="">
+                                    </div>
+                                    <div class="testimonials-profile-content">
+                                        <span>Benjamin Kumalić</span>
+                                        <span>Head of Performance Marketing @Bird Buddy</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="testimonials-content">
+                                <div>
+                                    <p>"I have a very high bar for what I consider to be a true performance marketer, and Flat Circle checks all of the boxes. Their team acts as a trusted advisor and trendspotter for all of their clients. Their level of communication is top-notch and so is their ability to identify bottlenecks and spot opportunities in marketing. They combine excellent pattern recognition, creativity, and science to deliver amazing results. Simply, they know what works and they are a ton of fun to work with."</p>
+                                </div>
+                                <div class="testimonials-profile">
+                                    <div>
+                                        <img class="img-fluid" src="./assets/image/t-pic-two.png" alt="">
+                                    </div>
+                                    <div class="testimonials-profile-content">
+                                        <span>Eric Carlson</span>
+                                        <span>Head of Performance Marketing @Bird Buddy</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="testimonials-content">
+                                <div>
+                                    <p>"Rok and his team’s passion for media ad buying and helping DTC businesses reach their goals by means of Facebook advertising and beyond is exceptional. Keen eyes for details trends, tech, and seasonality make their work as professional as possible. If something is happening with your paid ads they are the ones that will spot it and save your day (and your money). Only a person who truly cares about exceptional performance, will check ads several times a day for dozens of clients, and act proactively - the team at Flat Circle does that. Also, whenever you need practical advice, they will share a handful of good & bad practices with you anytime, with great pleasure."</p>
+                                </div>
+                                <div class="testimonials-profile">
+                                    <div>
+                                        <img class="img-fluid" src="./assets/image/t-pic-three.png" alt="">
+                                    </div>
+                                    <div class="testimonials-profile-content">
+                                        <span>Špela Mlekuž</span>
+                                        <span>Head of Performance Marketing @Bird Buddy</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                       
+                        
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <div id="carouselExampleIndicatorstwo" class="carousel slide" data-bs-ride="carousel" data-interval="5000">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicatorstwo" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicatorstwo" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicatorstwo" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="row gy-2">
+                        <div class="col-12">
+                            <div class="testimonials-content">
+                                <div>
+                                    <p>"High analytical skills and long-time experience in the media buying world make cooperation seamless. The Flat Circle team efficiently manages every dollar spent and tries to provide clients with a bigger picture and understanding of the advertising industry to realize the true impact of performance marketing on a scale."</p>
+                                </div>
+                                <div class="testimonials-profile">
+                                    <div>
+                                        <img class="img-fluid" src="./assets/image/t-pic-one.png" alt="">
+                                    </div>
+                                    <div class="testimonials-profile-content">
+                                        <span>Benjamin Kumalić</span>
+                                        <span>Head of Performance Marketing @Bird Buddy</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="col-12">
+                        <div class="testimonials-content">
+                            <div>
+                                <p>"I have a very high bar for what I consider to be a true performance marketer, and Flat Circle checks all of the boxes. Their team acts as a trusted advisor and trendspotter for all of their clients. Their level of communication is top-notch and so is their ability to identify bottlenecks and spot opportunities in marketing. They combine excellent pattern recognition, creativity, and science to deliver amazing results. Simply, they know what works and they are a ton of fun to work with."</p>
+                            </div>
+                            <div class="testimonials-profile">
+                                <div>
+                                    <img class="img-fluid" src="./assets/image/t-pic-two.png" alt="">
+                                </div>
+                                <div class="testimonials-profile-content">
+                                    <span>Eric Carlson</span>
+                                    <span>Head of Performance Marketing @Bird Buddy</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="col-12">
+                        <div class="testimonials-content">
+                            <div>
+                                <p>"Rok and his team’s passion for media ad buying and helping DTC businesses reach their goals by means of Facebook advertising and beyond is exceptional. Keen eyes for details trends, tech, and seasonality make their work as professional as possible. If something is happening with your paid ads they are the ones that will spot it and save your day (and your money). Only a person who truly cares about exceptional performance, will check ads several times a day for dozens of clients, and act proactively - the team at Flat Circle does that. Also, whenever you need practical advice, they will share a handful of good & bad practices with you anytime, with great pleasure."</p>
+                            </div>
+                            <div class="testimonials-profile">
+                                <div>
+                                    <img class="img-fluid" src="./assets/image/t-pic-three.png" alt="">
+                                </div>
+                                <div class="testimonials-profile-content">
+                                    <span>Špela Mlekuž</span>
+                                    <span>Head of Performance Marketing @Bird Buddy</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonials End -->
+
+
+
+    <!-- Sliding logo Start -->
+    <section id="sliding">
+        <div class="logos">
+            <div class="logos-slide">
+                <img src="./assets/image/sliding-icon/s-one.png" alt="Sliding Picture">
+                <img src="./assets/image/sliding-icon/s-two.png" alt="Sliding Picture">
+                <img src="./assets/image/sliding-icon/s-three.png" alt="Sliding Picture">
+                <img src="./assets/image/sliding-icon/s-four.png" alt="Sliding Picture">
+                <img src="./assets/image/sliding-icon/s-five.png" alt="Sliding Picture">
+                <img src="./assets/image/sliding-icon/s-six.png" alt="Sliding Picture">
+                <img src="./assets/image/sliding-icon/s-seven.png" alt="Sliding Picture">
+                <img src="./assets/image/sliding-icon/s-eight.png" alt="Sliding Picture">
+            </div>
+            <div class="logos-slide">
+                <img src="./assets/image/sliding-icon/s-one.png" alt="Sliding Picture">
+                <img src="./assets/image/sliding-icon/s-two.png" alt="Sliding Picture">
+                <img src="./assets/image/sliding-icon/s-three.png" alt="Sliding Picture">
+                <img src="./assets/image/sliding-icon/s-four.png" alt="Sliding Picture">
+                <img src="./assets/image/sliding-icon/s-five.png" alt="Sliding Picture">
+                <img src="./assets/image/sliding-icon/s-six.png" alt="Sliding Picture">
+                <img src="./assets/image/sliding-icon/s-seven.png" alt="Sliding Picture">
+                <img src="./assets/image/sliding-icon/s-eight.png" alt="Sliding Picture">
+            </div>
+        </div>
+    </section>
+    <!-- Sliding logo End -->
+
+
+    <!-- Contact Start -->
+    <section id="contact-s" class="two-section about-company contact-section">
+        <section class="child">
+            <div class="about-company-content content-margin">
+                <span>CONTACT US</span>
+                <h2>We’re ‘Ad’-dicted to Your Success: Let’s Conquer Together!</h2>
+                <p>We would love to learn more about your business. To get in touch, use the form below.</p>
+
+                <div class="contact-input-section">
+                    <div class="row gx-5 gy-4">
+                        <div class="col-lg-6 contact-input-padding">
+                            <label for="name" class="form-label">My name is</label>
+                            <input type="text" class="form-control" id="nameid" placeholder="Your name">
+                        </div>
+
+                        <div class="col-lg-6 contact-input-padding">
+                            <label for="email" class="form-label">My email address is</label>
+                            <input type="email" class="form-control" id="nameid" placeholder="Your@email.com">
+                        </div>
+
+                        <div class="col-lg-6 contact-input-padding contact-margin">
+                            <label for="websiteaddress" class="form-label">My website address is</label>
+                            <input type="text" class="form-control" id="nameid" placeholder="Your website URL">
+                        </div>
+
+                        <div class="col-lg-6 contact-input-padding contact-margin">
+                            <label for="paidads" class="form-label">I have done paid ads</label>
+                            <input type="text" class="form-control" id="nameid" placeholder="How long">
+                        </div>
+
+                        <div class="col-lg-12 contact-input-padding contact-margin">
+                            <label for="paidads" class="form-label">Your massage</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="1" placeholder="Start typing here..."></textarea>
+                        </div>
+
+                        <div class="col-lg-12 contact-input-padding text-start">
+                            <button class="btn">SEND</button>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <span class="contact-bottom">
+                    <div>
+                        <a href="#">Privacy policiy</a>
+                        <a href="#">Terms and conditions</a>
+                    </div>
+                    <div class="contact-copy">
+                        <a href="#">&copy; Copyright 2022 Flat Circle All Rights Reserved</a>
+                    </div>
+                </span>
+                
+            </div>
+        </section>
+
+        <section class="child our-contact-main">
+
+            <div class="our-contact">
+                <img class="img-fluid" src="/assets/image/contact-brand-logo.svg" alt="Contact Brand Logo">
+                <h5>OUR CONTACT</h5>
+                <div class="contact-info">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+                        <path d="M6.01665 0C6.29079 0.113386 6.59076 0.187303 6.83404 0.349488C7.30696 0.666683 7.5445 1.14319 7.56387 1.713C7.59688 2.69472 7.67367 3.67142 7.9069 4.62875C8.00235 5.01699 8.12219 5.4002 8.21907 5.78773C8.37121 6.38552 8.22912 6.91083 7.85164 7.39595C7.23233 8.19252 6.63167 9.00201 6.02598 9.81151C6.00921 9.84278 5.99984 9.87747 5.9986 9.91293C5.99735 9.94839 6.00427 9.98367 6.01881 10.016C7.26103 12.3885 9.00632 14.2845 11.3422 15.6186C11.5539 15.7392 11.7606 15.8676 11.978 15.9774C12.0137 15.9922 12.0522 15.9988 12.0907 15.9967C12.1292 15.9946 12.1667 15.9838 12.2005 15.9652C13.01 15.3631 13.8195 14.7596 14.6161 14.1403C14.8325 13.9625 15.0877 13.8381 15.3611 13.7771C15.6345 13.7162 15.9184 13.7204 16.1898 13.7894C16.7683 13.9221 17.3381 14.118 17.9179 14.2092C18.665 14.3261 19.4249 14.3871 20.1792 14.4324C21.0612 14.4855 21.702 14.939 21.9302 15.7507C21.9785 15.9304 22.0027 16.1157 22.002 16.3018C22.0077 17.5835 22.0077 18.8654 22.002 20.1476C22.002 21.2506 21.2255 22.0135 20.1289 21.9998C16.0621 21.9553 12.3254 20.8236 8.95393 18.5487C5.69228 16.3499 3.26739 13.4334 1.68214 9.8316C0.905172 8.0754 0.395272 6.21287 0.169362 4.30581C0.102622 3.74462 0.0559755 3.18271 0 2.62152V1.54507C0.122716 1.26447 0.21529 0.959478 0.376041 0.703282C0.645871 0.287054 1.07645 0.105492 1.54722 0H6.01665Z" fill="white"/>
+                    </svg>
+                    <span>+386 41 555 666</span>
+                </div>
+                <div class="contact-info">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="18" viewBox="0 0 26 18" fill="none">
+                        <path d="M0 1.95256L0.206268 1.31641L7.9363 8.97968L0.20026 16.643C0.148192 16.4881 0.0747637 16.2678 0 16.0482V1.95256Z" fill="white"/>
+                        <path d="M1.34989 0.144226C1.68365 0.0968314 2.01742 0.0107197 2.34718 0.0107197C4.2877 -0.00396605 6.22822 0.000706678 8.16807 0.000706678C13.1732 0.000706678 18.1782 0.000706678 23.1829 0.000706678C23.55 0.000706678 23.9072 0.038756 24.2876 0.231005C23.9011 0.608829 23.536 0.959284 23.1782 1.31775C19.9496 4.55573 16.7214 7.79393 13.4936 11.0324C13.0411 11.4863 12.5471 11.4876 12.0978 11.037L1.49741 0.401226C1.44534 0.349159 1.39595 0.294421 1.34521 0.241018L1.34989 0.144226Z" fill="white"/>
+                        <path d="M1.34155 17.7551L9.05556 10.1172C9.08026 10.1406 9.14635 10.1993 9.20909 10.262C9.82656 10.8815 10.4414 11.5023 11.0608 12.1198C12.0741 13.1304 13.5147 13.1278 14.532 12.1164L16.5346 10.1265L24.298 17.8125C23.9949 17.8793 23.7413 17.94 23.4843 17.9867C23.3768 17.9991 23.2685 18.0018 23.1605 17.9947C16.2502 17.9947 9.33971 17.993 2.42896 17.9894C2.07183 17.9894 1.71404 17.9053 1.35624 17.8606L1.34155 17.7551Z" fill="white"/>
+                        <path d="M25.4127 1.32227C25.4674 1.6033 25.5776 1.90769 25.5783 2.21209C25.5898 6.73262 25.5898 11.2536 25.5783 15.775C25.5783 16.0814 25.4694 16.3878 25.4134 16.6835L17.662 8.99555L25.4127 1.32227Z" fill="white"/>
+                    </svg>
+                    <span>info@flatcircle.agency</span>
+                </div>
+                <div class="contact-info">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="25" viewBox="0 0 19 25" fill="none">
+                        <path d="M8.85979 25C8.65056 24.8275 8.41014 24.6813 8.23578 24.4782C6.14719 22.0482 4.23112 19.4922 2.63133 16.7086C1.70205 15.0917 0.887777 13.4204 0.383676 11.6132C-0.373087 8.90487 -0.0231532 6.34521 1.54727 4.01191C3.03877 1.79423 5.14388 0.463625 7.80387 0.096561C10.4057 -0.266832 12.7513 0.397553 14.7824 2.05423C16.573 3.51392 17.6393 5.41409 18.0027 7.70763C18.286 9.49217 17.9452 11.188 17.3298 12.8465C16.5027 15.0685 15.3207 17.1063 14.0097 19.0725C12.7451 20.9588 11.3639 22.7642 9.87411 24.4782C9.69853 24.6807 9.45933 24.8275 9.24949 25H8.85979ZM9.02742 13.6076C11.4947 13.6504 13.5594 11.6199 13.6047 9.10675C13.65 6.59359 11.6305 4.53314 9.09532 4.4897C6.61091 4.44749 4.54251 6.48102 4.50703 9.00275C4.46604 11.5098 6.48489 13.5635 9.02742 13.6076Z" fill="white"/>
+                    </svg>
+                    <span>Cesta v Mestni log 1, 1000 Ljubljana, Slovenia</span>
+                </div>
+                <h5>FOLLOW US</h5>
+                <div class="contact-social">
+                    <a href="#"><img class="img-fluid" src="/assets/image/insta.svg" alt="Instagram Icon"></a>
+                    <a href="#"><img class="img-fluid" src="/assets/image/tiktok.svg" alt="Instagram Icon"></a>
+                    <a href="#"><img class="img-fluid" src="/assets/image/linkedin.svg" alt="Instagram Icon"></a>
+                    <a href="#"><img class="img-fluid" src="/assets/image/twitter.svg" alt="Instagram Icon"></a>
+                </div>
+
+                <div class="social-people">
+                    <img src="/assets/image/social-people-one.svg" alt="Social People">
+                    <a href="#" style="text-decoration: none;">
+                        <div class="social-people-contents ms-2">
+                            <span>Rok Hladnik</span>
+                            <span>Managing Partner</span>
+                        </div>
+                    </a>
+
+                </div>
+
+                <div class="social-people mt-3">
+                    <img src="/assets/image/social-people-three.svg" alt="Social People">
+                    <a href="#" style="text-decoration: none;">
+                        <div class="social-people-contents ms-2">
+                            <span>Rok Sabadin</span>
+                            <span>Partner</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="social-people mt-3 margin-bottom-contact">
+                    <img src="/assets/image/social-people-two.svg" alt="Social People">
+                    <a href="#" style="text-decoration: none;">
+                        <div class="social-people-contents ms-2">
+                            <span>Matej Hladnik</span>
+                            <span>Partner</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="privacy-contents-responsive">
+                    <div class="d-flex flex-column align-items-start">
+                        <a href="#">Privacy policiy</a>
+                        <a href="#" style="margin-top: 6px;">Terms and conditions</a>
+                    </div>
+                    <a href="#" style="margin-top: 14px;">&copy; Copyright 2022 Flat Circle All Rights Reserved</a>
+                </div>
+
+
+            </div>
+           
+        </section>
+    </section>
+
+    <!-- Contact End -->
+
+
+    <script src="/assets/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
